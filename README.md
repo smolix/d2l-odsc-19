@@ -18,7 +18,7 @@ day. The course consists of four segments of 90 minutes each.
 1. Deep Learning Basics
 1. Convolutional Neural Networks for computer vision
 1. Best practices (GPUs, Parallelization, Fine Tuning, Transfer Learning)
-1. Recurrent Neural Networks for natural language (RNN, LSTM, GRU)
+1. Recurrent Neural Networks for natural language (RNN, LSTM)
 
 ## Prerequisites
 
@@ -50,15 +50,10 @@ instances.
 
 | Time | Topics |
 | --- | --- |
-| 8:00---9:00 | Setup clinic for laptops |
-| 9:00---10:30 | [Part 1: Deep learning basic](#part-1-deep-learning-basic) |
-| 10:30---11:00 | Coffee break |
-| 11:00---12:30 | [Part 2: Convolutional neural networks](#part-2-convolutional-neural-networks) |
-| 12:30---2:00 | Lunch break |
-| 2:00---3:30 | [Part 3: Performance](#part-3-performance) |
-| 3:30---4:00 | Coffee break |
-| 4:00---5:30 | [Part 4: Recurrent neural networks](#part-4-recurrent-neural-networks) |
-
+| 9:00---10:00 | [Part 1: Deep learning basic](#part-1-deep-learning-basic) |
+| 10:00---11:00 | [Part 2: Convolutional neural networks](#part-2-convolutional-neural-networks) |
+| 11:00---12:00 | [Part 3: Performance](#part-3-performance) |
+| 12:00---1:00 | [Part 4: Recurrent neural networks](#part-4-recurrent-neural-networks) |
 
 ### Part 1: Deep Learning Basic
 
@@ -66,15 +61,12 @@ instances.
 
 **Notebooks**:
 
-1. Data Manipulation with Ndarray  [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/1-ndarray.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/1-ndarray.ipynb#/)
+1. Data Manipulation with Numpy [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/1-ndarray.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/1-ndarray.ipynb#/)
 1. Automatic Differentiation  [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/2-autograd.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/2-autograd.ipynb#/)
-1. Linear Regression Implementation from Scratch  [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/3-linear-regression-scratch.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/3-linear-regression-scratch.ipynb#/)
-1. Concise Implementation of Linear Regression  [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/4-linear-regression-gluon.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/4-linear-regression-gluon.ipynb#/)
+1. Linear Regression  [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/4-linear-regression-gluon.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/4-linear-regression-gluon.ipynb#/)
 1. Image Classification Data (Fashion-MNIST)  [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/5-fashion-mnist.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/5-fashion-mnist.ipynb#/)
-1. Implementation of Softmax Regression from Scratch  [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/6-softmax-regression-scratch.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/6-softmax-regression-scratch.ipynb#/)
-1. Concise Implementation of Softmax Regression  [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/7-softmax-regression-gluon.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/7-softmax-regression-gluon.ipynb#/)
-1. Implementation of Multilayer Perceptron from Scratch  [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/8-mlp-scratch.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/8-mlp-scratch.ipynb#/)
-1. Concise Implementation of Multilayer Perceptron  [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/9-mlp-gluon.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/9-mlp-gluon.ipynb#/)
+1. Softmax Regression  [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/7-softmax-regression-gluon.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/7-softmax-regression-gluon.ipynb#/)
+1. Multilayer Perceptrons  [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-1/9-mlp-gluon.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/9-mlp-gluon.ipynb#/)
 
 ### Part 2: Convolutional neural networks
 
@@ -87,7 +79,6 @@ instances.
 1. Pooling                                       [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/3-pooling.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/3-pooling.ipynb#/)
 1. Convolutional Neural Networks (LeNet)         [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/4-lenet.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/4-lenet.ipynb#/)
 1. Deep Convolutional Neural Networks (AlexNet)  [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/5-alexnet.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/5-alexnet.ipynb#/)
-1. Networks Using Blocks (VGG)                   [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/6-vgg.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/6-vgg.ipynb#/)
 1. Inception Networks (GoogLeNet)                [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/7-googlenet.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/7-googlenet.ipynb#/)
 1. Residual Networks (ResNet)                    [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-2/8-resnet.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-2/8-resnet.ipynb#/)
 
@@ -102,7 +93,6 @@ instances.
 1. Concise Implementation of Multi-GPU Computation    [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-3/3-multiple-gpus-gluon.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-3/3-multiple-gpus-gluon.ipynb#/)
 1. Fine Tuning                                        [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-3/4-fine-tuning.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-3/4-fine-tuning.ipynb#/)
 
-
 ### Part 4: Recurrent neural networks
 
 **Slides**: [[keynote]](slides/Part-4.key), [[pdf]](slides/Part-4.pdf)
@@ -110,8 +100,6 @@ instances.
 **Notebooks**:
 
 1. Text Preprocessing                                        [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-4/1-text-preprocessing.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-4/1-text-preprocessing.ipynb#/)
-1. Implementation of Recurrent Neural Networks from Scratch  [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-4/2-rnn-scratch.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-4/2-rnn-scratch.ipynb#/)
 1. Concise Implementation of Recurrent Neural Networks       [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-4/3-rnn-gluon.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-4/3-rnn-gluon.ipynb#/)
-1. Gated Recurrent Units (GRU)                               [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-4/4-gru.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-4/4-gru.ipynb#/)
 1. Long Short Term Memory (LSTM)                             [[ipynb]](https://github.com/mli/d2l-1day-notebooks/blob/master/notebooks-4/5-lstm.ipynb)  [[slides]](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-4/5-lstm.ipynb#/)
 
